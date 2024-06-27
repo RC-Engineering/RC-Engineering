@@ -1,0 +1,201 @@
+/* Basic reset and styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    overflow:auto
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: block;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*p.flex1{
+    border:none;
+}*/
+/*
+ img.x1{
+    width:64px;
+    height:64px;
+} 
+
+div.container #ax{
+    text-decoration:none;
+}*/
+
+/* Basic styles for header, gallery, footer */
+
+*{
+    margin:0; padding:0; box-sizing:border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    transition:ease-in;
+    text-decoration: underline;
+    color:red;
+}
+
+main {
+    padding: 20px;
+    /*overflow-y:auto;*/
+}
+
+.gallery {
+    overflow-y:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.photo {
+    position: relative;
+}
+
+.photo img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition:ease-in-out /*transform(0.2s ease-in-out);*/
+}
+
+.photo img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social {
+    margin-bottom: 10px;
+}
+
+.social a {
+    margin: 0 10px;
+}
+
+.social img {
+    width: 30px;
+    height: auto;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+/*div.logo*/ img.xx1{
+    position:relative;
+    display:inline;
+    top:2.2%;
+    width:60px;
+    height:60px;
+}
+header p{
+    font-family:sans-serif;
+    text-align:center;
+    font-size: larger;
+    /*margin-left:50%;
+    display:inline;
+    float:left;*/
+}
+/* Additional styles as needed */
+p a{color:yellowgreen;}
+p a:hover{color:red;}
